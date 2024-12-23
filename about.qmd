@@ -1,21 +1,22 @@
 ---
-title: "About Me"
-toc: false
+title: "About Us"
 ---
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
 
-<img src="images/Eric.png" alt="Eric Delmelle" style="width: 170px; border-radius: 10px;">
+<img src="images/GroupPhoto.jpg" alt="Us under Aurora!" style="width: 170px; border-radius: 10px;">
 
 <div>
-  <p><span style="color:red">Hello everyone</span></p>
-  <p>On this about page, you might want to add more information about yourself, the project, or course. </p>
+  <p><span style="color:grey">Need more information from everyone... </p>
 
-  - My name is *Eric* **Delmelle**, the instructor for the course. 
-  - You can find more information about me on my [personal website](https://www.design.upenn.edu/people/eric-delmelle).
-  - <span style="color:orange">This site is an example site showing how to use Quarto for the final project for MUSA 550, during fall 2024.</span>
-  - <span style="color:gray">Write something about you</span>
-    - <span style="color:red">or about something you like</span>
+  - **Xiaxin Tang**
+  - Xiaxin (Joey) concentrates in Smart City of the Master of City Planning program. He conducted the crash and weather analysis in this project.
+  - **Jiyan Wang**
+  - Jiyan (William) concentrates in the Sustainable Transportation of the Master of City Planning program. He conducted the traffic analysis in this project.
+  - **Yuan Ji**
+  - Yuan is concentrates in the Urban Design of the Master of City Planning program. His main role is the webpage visualization. 
+
+  <p>You can find more information on: [https://github.com/Xiaxin-Tang/final](https://github.com/Xiaxin-Tang/final).</p>
 </div>
 
 </div>

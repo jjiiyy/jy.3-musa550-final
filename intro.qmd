@@ -1,0 +1,41 @@
+---
+title: "Introduction"
+---
+  
+## <span style="color: purple;">Background</span>
+
+New York City (NYC) is one of the busiest urban centers in the world, with millions of vehicles navigating its streets daily. Understanding traffic patterns and identifying high-risk locations for crashes is crucial for improving road safety and optimizing traffic flow. Recent advancements in geospatial data science and machine learning provide powerful tools to analyze complex urban transportation systems and predict traffic behavior.
+
+This project aims to use OpenStreetMap data, accessed and analyzed through the Python library OSMnx, to map crash data onto NYC's street network. Additionally, machine learning models will be developed to predict traffic volume at intersections, leveraging traffic count data, geospatial features, and historical crash patterns. By combining geospatial analysis and predictive modeling, this project will provide actionable insights into traffic dynamics and road safety in NYC.
+
+![Image: Traffic in New York City. Source: New York Times](images/traffic-nyt.png)
+
+## <span style="color: purple;">Introduction</span>
+
+The purpose of this project is to design a predictive model for traffic congestion using a set of environmental and contextual features, including temperature, precipitation, wind speed, the occurrence of events, and whether it is a weekend. Traffic congestion is a significant issue in urban areas, impacting commute times, air quality, and overall productivity. By leveraging these variables, the model aims to understand the factors influencing traffic patterns and provide accurate predictions of traffic counts. Such a model could be instrumental in improving traffic management systems, informing infrastructure planning, and helping commuters make more informed decisions. The project seeks to demonstrate the feasibility of using readily available data to address real-world urban challenges.
+
+A traffic prediction model has significant potential applications in optimizing traffic light systems to improve traffic flow and reduce congestion. By accurately predicting traffic counts based on environmental factors, events, and time-related variables, the model could serve as a critical input for adaptive traffic light control systems. For instance, the model could help dynamically adjust traffic light timings based on anticipated traffic volumes at specific intersections. During periods of high predicted traffic, longer green light durations could be allocated to heavily congested routes, while during low-traffic periods, shorter cycles could minimize unnecessary delays. This would ensure a more efficient allocation of green time, reducing wait times, fuel consumption, and emissions caused by idling vehicles.
+
+Additionally, the model could be integrated into intelligent traffic management systems that coordinate traffic lights across multiple intersections. By predicting traffic patterns in advance, the system could optimize signal synchronization to create “green waves,” allowing vehicles to travel through a series of intersections without stopping. This approach could be particularly useful in urban areas with high traffic density, where poor signal coordination often exacerbates congestion. Furthermore, during special events or adverse weather conditions, the model could help traffic authorities proactively adjust signal timings to handle anticipated surges in traffic, minimizing disruptions. Overall, the integration of traffic prediction models into traffic light optimization systems has the potential to enhance urban mobility, reduce congestion, and improve the overall efficiency of transportation networks.
+
+## <span style="color: purple;">Research Questions</span>
+
+1. **Crash Mapping and Analysis**:
+   - How can OSMnx be used to map crash data onto NYC's street network?
+   - What spatial patterns and trends can be identified from crash data across NYC?
+
+
+2. **Traffic Volume Prediction**:
+   - Can machine learning models accurately predict traffic volume at intersections using traffic count data and geospatial features?
+   - What are the most influential factors in predicting traffic volume at intersections?
+
+
+3. **Safety and Traffic Flow Insights**:
+   - How do crash patterns correlate with predicted traffic volumes at intersections?
+   - Which intersections in NYC are at the highest risk of crashes based on traffic volume and historical crash data?
+
+![Screenshots of Manhattan crash maps from the project.](images/welcome-insert0.png)
+
+::: {.callout-important}
+辣椒炒肉!
+:::

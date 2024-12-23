@@ -1,0 +1,23 @@
+---
+title: "In the End"
+---
+
+## <span style="color: purple;">Conclusion</span>
+
+In conclusion, while the project demonstrates the potential of using environmental and contextual features to predict traffic congestion, the results indicate that the current model is insufficient for accurate and reliable predictions. The significant errors and low explanatory power suggest that the complexity of traffic patterns requires a more robust approach. Future efforts should focus on incorporating additional features, such as time of day, historical traffic data, and real-time factors like road closures or accidents. Advanced modeling techniques, such as Gradient Boosting Machines or Neural Networks, could also be explored to better capture non-linear relationships and interactions between variables. Despite its limitations, this project serves as a valuable starting point for understanding the factors influencing traffic congestion and highlights the importance of data-driven approaches in addressing urban mobility challenges.</p>
+
+![Image: More predictable future traffic. Source: AI-generated.](images/conclusion.png)
+
+## <span style="color: purple;">Limitations</span>
+
+Despite its intent, the model faces several limitations that hinder its performance. The low R-squared value indicates that the features used explain only a negligible portion of the variance in traffic counts, suggesting that other critical factors influencing traffic, such as time of day, road capacity, historical traffic trends, or localized disruptions, are missing from the model. Additionally, the model exhibits heteroscedasticity, with residual errors increasing for higher traffic counts, indicating that it struggles to capture variability in extreme conditions. This issue is further compounded by outliers, such as unusual traffic spikes during events or accidents, which the model fails to predict accurately. Moreover, the features included may not fully capture the non-linear and complex relationships between environmental conditions and traffic patterns, limiting the model's ability to generalize to diverse scenarios. These limitations highlight the need for more comprehensive data and advanced modeling techniques to improve predictive accuracy.
+
+## <span style="color: purple;">Lastly</span>
+
+We would like to express our heartfelt gratitude to our instructor, Eric Delmelle, and our TAs (especially Xia) for their invaluable guidance and support throughout the semester. We also extend our thanks to everyone who has taken the time to explore our project. We hope that through collective efforts, including those of dedicated scientists and researchers, we can work toward creating better and more sustainable urban environments for the future.
+
+![](images/endend.png)
+
+::: {.callout-important}
+辣椒炒肉!
+:::

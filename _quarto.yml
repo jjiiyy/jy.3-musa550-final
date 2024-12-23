@@ -11,17 +11,17 @@ website:
     right: "MUSA 550 | Fall 2024 | University of Pennsylvania"
 
   sidebar:
-    logo: "images/Untitled-1.png"
+    logo: "images/cover-icon.png"
     pinned: true
     align: center
     tools:
-      - icon: home
+      - icon: backpack
         href: https://musa-550-fall-2024.github.io/course/
         text: "Class Website"
       - icon: github
         href: https://github.com/Xiaxin-Tang/final
         text: "Our GitHub"
-      - icon: globe
+      - icon: mortarboard
         href: https://www.design.upenn.edu/
         text: "Stuart Weitzman School of Design"
     style: "docked"
@@ -30,14 +30,17 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - href: about.qmd
+      - href: about2.qmd
         text: About us
+      - href: intro.qmd
+        text: Introduction
       - section: analysis/index.qmd
+        text: Analysis
         contents:
-          - analysis/Script.ipynb 
-          - analysis/2-static-images.ipynb
-          - analysis/3-altair-hvplot.ipynb
-          - analysis/4-folium.ipynb
+          - analysis/1-network.ipynb 
+          - analysis/2-prediction.ipynb
+      - href: conclusion.qmd
+        text: Conclusion
 
 format:
   html:

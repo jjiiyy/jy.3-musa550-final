@@ -1,14 +1,25 @@
 ---
-title: "Traffic Signal Optimization Using Real-Time Data"
-subtitle: "Fianl project for MUSA 550 by Jiyan (William) Wang, Xiaxin (Joey) Tang, and Yuan Ji"
+title: "Mapping Crash Data and Predicting Traffic Volume in New York City Using OSMnx and Machine Learning"
+subtitle: "by Xiaxin Joey Tang, Jiyan William Wang, and Yuan Ji"
+toc: false
 ---
+  
+## <span style="color: purple;">Overview</span>
 
-## Welcome!
+This webpage is dedicated to presenting our final project for class MUSA 550: Geospatial Data Science in Python (Fall 2024).
 
-Like other big cities, Philadelphia also experiences daily traffic congestions, particularly during peak commuting hours. Congestion not only increases travel times but also contributes to higher fuel consumption, air pollution, and commuter frustration. The city’s aging traffic signal infrastructure often relies on static timing plans that fail to adapt to real-time traffic conditions, exacerbating delays at critical intersections. By leveraging real-time traffic data, machine learning, and geospatial analysis, Philadelphia can adopt adaptive traffic signal control systems to dynamically adjust signal timings based on current traffic conditions. Such a system would not only reduce congestion but also improve safety, enhance air quality, and support the city’s broader goals of sustainable and efficient urban mobility.
+You can learn more information on the [class website](https://musa-550-fall-2024.github.io/course/).
 
-This project aims to develop an adaptive traffic signal optimization system through machine learning tools, using real-time traffic sensor data, historical traffic patterns, and transportation data.
+This project is the culmination of work undertaken in a course that bridges the power of data science with urban planning. The course equips students with the skills to transform raw data into actionable insights, employing the latest Python tools and a structured "pipeline" approach. Through real-world case studies, it provides hands-on experience in gathering, analyzing, and visualizing data, with a final focus on crafting compelling, interactive narratives. Key modules cover everything from exploratory data science and geospatial analysis to advanced machine learning applications, laying a strong foundation for innovative urban research.
+
+Urban mobility challenges are a pressing issue for cities worldwide, and Philadelphia is no exception. Like many metropolitan areas, it faces significant traffic congestion, particularly during peak hours. This congestion is exacerbated by an aging traffic signal system that relies on static timing plans, incapable of adapting to real-time conditions. The consequences are far-reaching: increased travel times, higher emissions, and frustrated commuters. Addressing these challenges requires a forward-thinking approach, combining modern technology and data-driven decision-making.
+
+![Image: Traffic in University of Pennsylvania. Source: Penn Today](images/penntraffic-penntoday.png)
+
+Our project tackles these issues by exploring how adaptive traffic signal optimization can enhance urban mobility. Using New York City crash data as a case study, we apply machine learning tools and geospatial analysis to model traffic volume and patterns. With real-time traffic data and historical insights, we demonstrate the potential of dynamic traffic signal systems to alleviate congestion, improve safety, and reduce environmental impacts. By leveraging tools such as OSMnx and Python-based machine learning, we aim to contribute to the broader conversation on sustainable and efficient urban transportation systems.
+
+We invite you to explore our findings, methodologies, and visualizations that highlight how data science can transform the way cities address traffic management and urban mobility challenges.
 
 ::: {.callout-important}
-Still testing...
+辣椒炒肉!
 :::
