@@ -10,11 +10,11 @@ title: "About Us"
   <p><span style="color:grey">Need more information from everyone... </p>
 
   - **Xiaxin Tang: **
-    Xiaxin (Joey) concentrates in Smart City of the Master of City Planning program. He conducted the crash and weather analysis in this project.
+    Xiaxin (Joey) concentrates in Smart City of the Master of City Planning program. His main role: xxxx.
   - **Jiyan Wang: **
-    Jiyan (William) concentrates in the Sustainable Transportation of the Master of City Planning program. He conducted the traffic analysis in this project.
+    Jiyan (William) concentrates in the Sustainable Transportation of the Master of City Planning program. His main role: xxxx.
   - **Yuan Ji: **
-    Yuan is concentrates in the Urban Design of the Master of City Planning program. His main role is the webpage visualization. 
+    Yuan is concentrates in the Urban Design of the Master of City Planning program. His main role: xxxx. 
 
   <p>You can find more information on [our github](https://github.com/Xiaxin-Tang/final).</p>
 </div>
