@@ -1,11 +1,22 @@
 # Analysis 
 
-This section includes examples of technical analysis done using Jupyter notebooks.
-Each sub-section highlights different types of analyses and visualizations.
-In particular, it highlights that we can easily publish interactive visualizations
-produced with packages such as hvPlot, altair, or Folium, without losing
-any of the interactive features. 
+## <span style="color: purple;">Background</span>
+Like other big cities, Philadelphia also experiences daily traffic congestions, particularly during peak commuting hours. Congestion not only increases travel times but also contributes to higher fuel consumption, air pollution, and commuter frustration. The city’s aging traffic signal infrastructure often relies on static timing plans that fail to adapt to real-time traffic conditions, exacerbating delays at critical intersections. By leveraging real-time traffic data, machine learning, and geospatial analysis, Philadelphia can adopt adaptive traffic signal control systems to dynamically adjust signal timings based on current traffic conditions. Such a system would not only reduce congestion but also improve safety, enhance air quality, and support the city’s broader goals of sustainable and efficient urban mobility.
+This project aims to develop an adaptive traffic signal optimization system through machine learning tools, using real-time traffic sensor data, historical traffic patterns, and transportation data.
 
-On this page, you might want to share more introductory or background information about 
-the analyses to help guide the reader. 
+## <span style="color: purple;">Data</span>
+First, we will use street network data from OpenStreetMap data via OSMnx to analyze traffic flow and identify key intersections for optimization.
+Second, we plan to collect real-time traffic sensor data via APIs such as Google Maps Traffic API, HERE Traffic API, or TomTom Traffic API.
+Third, we will add Historical Traffic from traffic sensor APIs or public datasets for model training and time-series analysis to predict traffic conditions. The data contains historical traffic patterns, including peak hours, seasonal trends, and congestion hotspots.
+Finally, we plan to add data for the machine learning model for optimizing traffic signal times. The data includes weather, Traffic Analysis Zones, household travel survey, amenity data etc. to make the model more precise. 
 
+## <span style="color: purple;">Research Questions</span>
+What are the traffic flow patterns across different intersections and times of day in Philadelphia?
+Which intersections or regions experience the highest congestion, and how can they be prioritized for optimization?
+How can real-time traffic data be used to optimize signal timings and reduce congestion through machine learning?
+
+## <span style="color: purple;">Analysis Methods and Techniques</span>
+In the data collection and preprocessing phase, we would collect real-time traffic data using APIs and aggregate historical data for analysis. Then, we plan to use OSMnx to model the road network and analyze traffic flow at intersections and identify critical intersections with high congestion levels. We will also analyze historical traffic data to identify trends, peak hours, and seasonal variations. Finally, we will use predictive models like scikit-learn to estimate traffic flow and adjust signal timings dynamically.
+
+## <span style="color: purple;">Requirement Satisfied</span>
+First, this project will satisfy the scraping and API requirement through gathering real-time traffic data. Then, It combines data collected from 3 or more different sources. This project also involves OSMnx to perform an analysis of street network data. We also want to perform a machine learning analysis with scikit-learn as part of the analysis. Finally, The project includes multiple interactive visualizations that include a significant interactive component. 
