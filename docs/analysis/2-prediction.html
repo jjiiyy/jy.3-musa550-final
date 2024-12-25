@@ -152,7 +152,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About us</span></a>
+ <span class="menu-text">Team</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -201,8 +201,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#importing-the-nyc-weather-data" id="toc-importing-the-nyc-weather-data" class="nav-link" data-scroll-target="#importing-the-nyc-weather-data">Importing The NYC Weather Data</a></li>
-  <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis">Exploratory Data Analysis:</a></li>
+  <li><a href="#part-1-importing-the-nyc-weather-data" id="toc-part-1-importing-the-nyc-weather-data" class="nav-link" data-scroll-target="#part-1-importing-the-nyc-weather-data">Part 1: Importing The NYC Weather Data</a></li>
+  <li><a href="#part-2-exploratory-data-analysis" id="toc-part-2-exploratory-data-analysis" class="nav-link" data-scroll-target="#part-2-exploratory-data-analysis">Part 2: Exploratory Data Analysis</a></li>
+  <li><a href="#part-3-data-training-and-model-making" id="toc-part-3-data-training-and-model-making" class="nav-link" data-scroll-target="#part-3-data-training-and-model-making">Part 3: Data Training and Model Making</a></li>
   </ul>
 </nav>
     </div>
@@ -232,8 +233,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
 <p>This study aims to design a predictive model for traffic congestion using environmental and contextual data, such as weather conditions, events, and time-related variables. By accurately predicting traffic patterns, the model can optimize traffic light timings, reduce congestion, and improve overall traffic flow. It could dynamically adjust signal durations to allocate green time efficiently, minimizing delays, fuel consumption, and emissions. Additionally, integrating this model into intelligent traffic management systems could enable synchronized “green waves,” reducing stops and delays across multiple intersections. This approach has the potential to enhance urban mobility, reduce disruptions during events or adverse weather, and support more efficient and sustainable transportation networks.</p>
 </section>
-<section id="importing-the-nyc-weather-data" class="level3">
-<h3 class="anchored" data-anchor-id="importing-the-nyc-weather-data">Importing The NYC Weather Data</h3>
+<section id="part-1-importing-the-nyc-weather-data" class="level3">
+<h3 class="anchored" data-anchor-id="part-1-importing-the-nyc-weather-data">Part 1: Importing The NYC Weather Data</h3>
 <section id="time-05-01-2021-to-05-10-2021" class="level5">
 <h5 class="anchored" data-anchor-id="time-05-01-2021-to-05-10-2021">Time: 05-01-2021 to 05-10-2021</h5>
 </section>
@@ -315,8 +316,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </section>
 </section>
-<section id="exploratory-data-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="exploratory-data-analysis">Exploratory Data Analysis:</h2>
+<section id="part-2-exploratory-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-exploratory-data-analysis">Part 2: Exploratory Data Analysis</h2>
 <p>Traffic Count Across the Time:</p>
 <div id="bd2b13f9-4804-42aa-b174-ec5b1ac47f60" class="cell" data-tags="[]" data-execution_count="38">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -560,6 +561,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Add a new column to indicate whether the date is a holiday or event</span></span>
 <span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>traffic_hourly[<span class="st">'is_holiday_or_event'</span>] <span class="op">=</span> traffic_hourly[<span class="st">'Timestamp'</span>].dt.date.isin(holiday_event_dates.date).astype(<span class="bu">int</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</section>
+<section id="part-3-data-training-and-model-making" class="level2">
+<h2 class="anchored" data-anchor-id="part-3-data-training-and-model-making">Part 3: Data Training and Model Making</h2>
 <p>Making the model</p>
 <div id="5f6fde92-0466-43e0-8206-b90060d511f1" class="cell" data-tags="[]" data-execution_count="45">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Merge with Weather Data</span></span>
