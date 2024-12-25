@@ -21,7 +21,7 @@ title: "About Us"
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
 
-<img src="images/william-headshot.png" alt="Us under Aurora!" style="width: 150px; height: auto; border-radius: 10px; margin-right: 20px;">
+<img src="images/william-headshot.png" alt="Jiyan Wang" style="width: 150px; height: auto; border-radius: 10px; margin-right: 20px;">
 
 <div>
 
@@ -36,7 +36,7 @@ title: "About Us"
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
 
-<img src="images/yuan-headshot.png" alt="Group Photo" style="width: 150px; height: auto; border-radius: 10px; margin-right: 20px;">
+<img src="images/yuan-headshot.png" alt="Yuan Ji" style="width: 150px; height: auto; border-radius: 10px; margin-right: 20px;">
 
 <div>
 
