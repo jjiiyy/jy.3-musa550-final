@@ -31,7 +31,7 @@ website:
       - href: index.qmd
         text: Welcome
       - href: about2.qmd
-        text: About us
+        text: Team
       - href: intro.qmd
         text: Introduction
       - section: analysis/index.qmd

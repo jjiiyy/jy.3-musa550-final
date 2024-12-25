@@ -19,5 +19,5 @@ We would like to express our heartfelt gratitude to our instructor, Eric Delmell
 ![](images/endend.png)
 
 ::: {.callout-important}
-辣椒炒肉!
+Note: this webpage is to be used for academic and educational purposes only and not for profit.
 :::

@@ -2,21 +2,53 @@
 title: "About Us"
 ---
 
+---
+
 <div style="display: flex; gap: 10px; align-items: flex-start;">
 
-<img src="images/GroupPhoto.jpg" alt="Us under Aurora!" style="width: 170px; border-radius: 10px;">
+<img src="images/xiaxin-headshot.png" alt="Xiaxin Tang" style="width: 150px; height: auto; border-radius: 10px; margin-right: 20px;">
 
 <div>
-  <p><span style="color:grey">Need more information from everyone... </p>
 
   - **Xiaxin Tang: **
-    Xiaxin (Joey) concentrates in Smart City of the Master of City Planning program. His main role: xxx.
-  - **Jiyan Wang: **
-    Jiyan (William) concentrates in the Sustainable Transportation of the Master of City Planning program. His main role: xxx.
-  - **Yuan Ji: **
-    Yuan is concentrates in the Urban Design of the Master of City Planning program. His main role xxx. 
+    Xiaxin (Joey) concentrates in Smart Cities within the Master of City Planning program. In the project, he is in charge of data collection, data training, and conducting machine learning process using NYC traffic volume and airport weather data.
 
-  <p>You can find more information on [our github](https://github.com/Xiaxin-Tang/final).</p>
 </div>
 
+</div>
+
+---
+
+<div style="display: flex; gap: 10px; align-items: flex-start;">
+
+<img src="images/william-headshot.png" alt="Us under Aurora!" style="width: 150px; height: auto; border-radius: 10px; margin-right: 20px;">
+
+<div>
+
+  - **Jiyan Wang: **
+    Jiyan (William) concentrates in Sustainable Transportation & Infrastructure within the Master of City Planning program. In the project, he is in charge of data collection, data cleaning, and spatial data visualization of Manhattan crash data.
+
+</div>
+
+</div>
+
+---
+
+<div style="display: flex; gap: 10px; align-items: flex-start;">
+
+<img src="images/yuan-headshot.png" alt="Group Photo" style="width: 150px; height: auto; border-radius: 10px; margin-right: 20px;">
+
+<div>
+
+  - **Yuan Ji: **
+    Yuan concentrates in Urban Design within the Master of City Planning program. In the project, he is in charge of data collection, analysis write-up, webpage development and visual enhancement.
+
+</div>
+
+</div>
+
+---
+
+<div>
+  <p><span style="color:grey">You can find more information on [our github](https://github.com/Xiaxin-Tang/final)...</p>
 </div>

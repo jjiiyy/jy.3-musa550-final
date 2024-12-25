@@ -35,7 +35,3 @@ Additionally, the model could be integrated into intelligent traffic management 
    - Which intersections in NYC are at the highest risk of crashes based on traffic volume and historical crash data?
 
 ![Screenshots of Manhattan crash maps from the project.](images/welcome-insert0.png)
-
-::: {.callout-important}
-辣椒炒肉!
-:::
